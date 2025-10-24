@@ -1,0 +1,17 @@
+[project]
+name = "medical-image-torch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "grafana>=0.0.1",
+    "jupyter>=1.1.1",
+    "mlflow>=3.5.1",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "sqlalchemy>=2.0.44",
+    "torch>=2.9.0",
+    "waitress>=3.0.2",
+]
