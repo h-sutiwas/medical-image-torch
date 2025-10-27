@@ -2320,6 +2320,7 @@ dependencies = [
     { name = "pillow" },
     { name = "prometheus-fastapi-instrumentator" },
     { name = "psycopg2" },
+    { name = "ptl" },
     { name = "pydicom" },
     { name = "scikit-image" },
     { name = "seaborn" },
@@ -2353,6 +2354,7 @@ requires-dist = [
     { name = "pillow", specifier = ">=12.0.0" },
     { name = "prometheus-fastapi-instrumentator", specifier = ">=7.1.0" },
     { name = "psycopg2", specifier = ">=2.9.11" },
+    { name = "ptl", specifier = ">=0.3.0" },
     { name = "pydicom", specifier = ">=3.0.1" },
     { name = "scikit-image", specifier = ">=0.25.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -3385,6 +3387,15 @@ sdist = { url = "https://files.pythonhosted.org/packages/89/8d/9d12bc8677c24dad3
 wheels = [
     { url = "https://files.pythonhosted.org/packages/88/5a/18c8cb13fc6908dc41a483d2c14d927a7a3f29883748747e8cb625da6587/psycopg2-2.9.11-cp313-cp313-win_amd64.whl", hash = "sha256:8dc379166b5b7d5ea66dcebf433011dfc51a7bb8a5fc12367fa05668e5fc53c8", size = 2714048, upload-time = "2025-10-10T11:10:19.816Z" },
     { url = "https://files.pythonhosted.org/packages/47/08/737aa39c78d705a7ce58248d00eeba0e9fc36be488f9b672b88736fbb1f7/psycopg2-2.9.11-cp314-cp314-win_amd64.whl", hash = "sha256:f10a48acba5fe6e312b891f290b4d2ca595fc9a06850fe53320beac353575578", size = 2803738, upload-time = "2025-10-10T11:10:23.196Z" },
+]
+
+[[package]]
+name = "ptl"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/85/4c0593ff3076d7e73e42c9285d01e618423c40cdeba12d463eb12a77576e/ptl-0.3.0.tar.gz", hash = "sha256:8af7b4fea3cddc85ecc2e7773b4398afaff0be10914dcc96b2d23f4ece96da23", size = 23124, upload-time = "2024-07-22T15:13:45.318Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1c/68/a8f24fa436d8602ff8bd00519c1db9058cc1c972870a88bc01e6b47848fc/ptl-0.3.0-py3-none-any.whl", hash = "sha256:6284018054bb60ad81edf28109c8525917f558547744b58977c9ac38d291c68d", size = 22133, upload-time = "2024-07-22T15:13:44.094Z" },
 ]
 
 [[package]]

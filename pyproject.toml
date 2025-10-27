@@ -34,4 +34,5 @@ dependencies = [
     "psycopg2>=2.9.11",
     "pillow>=12.0.0",
     "kaggle>=1.7.4.5",
+    "ptl>=0.3.0",
 ]
